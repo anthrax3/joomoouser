@@ -1,0 +1,48 @@
+/**
+ * @author      Tom Hartung <webmaster@tomhartung.com>
+ * @package     Joomla
+ * @subpackage  joomoouser
+ * @copyright   Copyright (C) 2010 Tom Hartung. All rights reserved.
+ * @since       1.5
+ * @license     GNU/GPL, see LICENSE.php
+ */
+
+/*
+ * Styles for the joomoouser component
+ */
+h4.joomoouser
+{
+	margin-top:     6px;
+	margin-left:   10px;
+	margin-bottom:  0px;
+}
+div.joomoouser_add,
+div.joomoouser_deactivate,
+div.joomoouser_delete
+{
+	margin:     6px;
+}
+p.joomoouser
+{
+	margin-top:     6px;
+	margin-left:   20px;
+	margin-bottom:  5px;
+}
+button.joomoouser
+{
+	margin-top:    10px;
+	margin-left:   40px;
+	margin-bottom:  0px;
+}
+ul.joomoouser-no_arrows,
+li.joomoouser-no_arrows
+{
+	list-style-image: none;
+	list-style-type: none;
+}
+input.joomoouser
+{
+	margin-top:     6px;
+	margin-left:   10px;
+	margin-bottom:  0px;
+}

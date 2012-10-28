@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Joomoo User">
+		<message>
+			<![CDATA[This component allows requiring users to solve a captcha before creating an account, etc.]]>
+		</message>
+	</layout>
+	<state>
+		<name>Joomoo User</name>
+		<description>Component allows requiring users to solve a captcha before creating an account, etc.</description>
+	</state>
+</metadata>

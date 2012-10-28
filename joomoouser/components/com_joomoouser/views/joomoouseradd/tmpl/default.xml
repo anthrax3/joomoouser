@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Joomoo User Create Account">
+		<message>
+			<![CDATA[Menu option allowing users to create an account]]>
+		</message>
+	</layout>
+	<!-- Add fields to the request variables for the layout. --> 
+	<fields>
+		<fieldset name="request">
+		</fieldset>
+	</fields>
+	<fields name="params">
+		<!-- Basic options. --> 
+		<fieldset name="basic" label="Basic Options">
+			<field name="spacer" type="spacer" class="text" label="No options are available for this menu item type." />
+		</fieldset>
+	</fields>
+</metadata>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params>
+		<param name="require_captcha" type="radio" default="0" label="Require CAPTCHA?"
+			description="Require user to solve a CAPTCHA to create an account?">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="captcha_type" type="radio" default="O" label="CAPTCHA Type"
+			description="To use reCaptcha you must download keys from recaptcha.net - see components/com_joomoobase/doc/captcha.txt">
+			<option value="O">OpenCaptcha</option>
+			<option value="R">reCAPTCHA</option>
+		</param>
+		<param name="create_account_notifications" type="radio" default="1" label="Send create account notifications to site admin?"
+			description="Send email to mailfrom address (set in Global Configuration) when someone creates an account?">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+	</params>
+</config>

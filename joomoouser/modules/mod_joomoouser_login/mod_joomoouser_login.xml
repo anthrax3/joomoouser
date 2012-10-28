@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.7">
+	<name>mod_joomoouser_login</name>
+	<author>Joomla! Project</author>
+	<creationDate>July 2006</creationDate>
+	<copyright>Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>1.7</version>
+	<description>DESCLOGINFORM</description>
+	<files>
+		<filename module="mod_joomoouser_login">mod_joomoouser_login.php</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_joomoouser_login.xml</filename>
+		<folder>tmpl</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_joomoouser_login.ini</language>
+		<language tag="en-GB">en-GB.mod_joomoouser_login.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+					<option value="0">Never</option>
+				</field>
+				<field name="@spacer" type="spacer" default="" label="" description="" />
+				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+				<field name="pretext" type="textarea" cols="30" rows="5" default="" label="Pre-text" description="PARAMPRETEXT" />
+				<field name="posttext" type="textarea" cols="30" rows="5" label="Post-text" description="PARAMPOSTTEXT" />
+				<field name="login" type="menuitem" default="" disable="separator" label="Login Redirection URL" description="PARAMLOGINREDIRECTURL" state="1" />
+				<field name="logout" type="menuitem" default="" disable="separator" label="Logout Redirection URL" description="PARAMLOGOUTREDIRECTURL" state="1" />
+				<field name="greeting" type="radio" default="1" label="Greeting" description="Show/Hide the simple greeting text">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="name" type="list" default="0" label="Name/Username">
+					<option value="0">Username</option>
+					<option value="1">Name</option>
+				</field>
+				<field name="usesecure" type="radio" default="0" label="Encrypt Login Form" description="Submit encrypted login data (requires SSL)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
